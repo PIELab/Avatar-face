@@ -47,7 +47,7 @@ public class CropImage extends MonitoredActivity {
 
 	// These are various options can be specified in the intent.
 	private Bitmap.CompressFormat mOutputFormat =
-		Bitmap.CompressFormat.JPEG; // only used with mSaveUri
+		Bitmap.CompressFormat.PNG; // only used with mSaveUri
 	private Uri mSaveUri = null;
 	private int mAspectX, mAspectY;
 	private boolean mCircleCrop = true;

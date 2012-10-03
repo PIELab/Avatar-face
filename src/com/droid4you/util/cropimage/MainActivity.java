@@ -80,7 +80,7 @@ final AlertDialog dialog = builder.create();
         intent.setType("image/*");
 
 //mImageCaptureUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),"tmp_contact_" + String.valueOf(System.currentTimeMillis()) + ".jpg"));
-        mImageCaptureUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),"/MirrorMe/sprites/face/default/.0" + ".jpg"));		
+        mImageCaptureUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),"/MirrorMe/sprites/face/default/.0" + ".png"));		
 		intent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, mImageCaptureUri);
 
 		try {
@@ -97,7 +97,7 @@ final AlertDialog dialog = builder.create();
 
   //mImageCaptureUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),
 				//"tmp_contact_" + String.valueOf(System.currentTimeMillis()) + ".jpg"));
-mImageCaptureUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),"/MirrorMe/sprites/face/default/facedetect" + String.valueOf(System.currentTimeMillis()) + ".jpg"));		
+mImageCaptureUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),"/MirrorMe/sprites/face/default/facedetect" + String.valueOf(System.currentTimeMillis()) + ".png"));		
 		
 
 		intent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, mImageCaptureUri);
